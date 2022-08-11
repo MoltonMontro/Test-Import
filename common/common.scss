@@ -1963,6 +1963,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   display: none;
 }
 
+/*
 //// ---------------------------------------
 .timeline-container {
   margin-left: 875px;
@@ -2288,6 +2289,7 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
     margin-top: -10px;
   }
 }
+*/
 
 @if $rounded_category_styles == "true" {
   /* Border radius for "bullet" category style */
