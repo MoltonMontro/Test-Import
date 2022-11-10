@@ -73,6 +73,7 @@ $theme-base: hsl(
     lightness($tertiary) + $v-lightness
   )
   !default;
+$theme-base: red !important;
 $theme-trim: $quaternary !default;
 
 $main-background: rgba($header_background, 0.9) !default;
