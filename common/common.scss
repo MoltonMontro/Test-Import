@@ -953,11 +953,6 @@ body:before {
   width: 100vw;
   z-index: -2;
   opacity: $body-background-gradient-opacity;
-  background: linear-gradient(
-    to bottom right,
-    $body-gradient-color-second,
-    $body-gradient-color-first
-  );
 }
 
 #background {
@@ -2207,6 +2202,22 @@ li.solved-status-filter details.solved-status-filter summary {
 }
 
 // Additional configuration settings -----------------------------------------------------------------------------
+
+/* We should merge the $dark_background_overlay setting into this. */
+@if %theme_background_color == "theme automatic" {
+  body:before {
+    display: block;
+    content: "";
+    width: 100vw;
+    z-index: -2;
+    opacity: $body-background-gradient-opacity;
+    background: linear-gradient(
+      to bottom right,
+      $body-gradient-color-second,
+      $body-gradient-color-first
+    );
+  }
+}
 
 @if $rounded_interface_borders == "true" {
   #post_1 .contents,
