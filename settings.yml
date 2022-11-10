@@ -8,8 +8,8 @@ theme_background_color:
   choices:
     - theme automatic
     - dark background overlay
-    - nebula two-color gradient
-    - dragonfly three-color gradient
+    - nebula gradient
+    - dragonfly gradient
 dark_background_overlay:
   default: false
   description:
