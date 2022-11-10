@@ -954,9 +954,9 @@ body:before {
   z-index: -2;
   opacity: $body-background-gradient-opacity;
   background: linear-gradient(
-    to top left,
-    $body-gradient-color-first,
-    $body-gradient-color-second
+    to bottom right,
+    $body-gradient-color-second,
+    $body-gradient-color-first
   );
 }
 
