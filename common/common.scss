@@ -2166,9 +2166,6 @@ body:before {
       background: black;
       opacity: 0.7;
       z-index: 0;
-    #background {
-        opacity: 0.85;
-    }
   } @else if $theme_background_overlay == "dragonfly gradient" { // three-color gradient (cyan, lime, gold)
     background: linear-gradient(to bottom right, #42bf9e, #2cbd1b 25%, #bda41b);
   } @else if $theme_background_overlay == "nebula gradient" { // two-color gradient (blue, violet)
