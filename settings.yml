@@ -10,10 +10,8 @@ theme_background_color:
     - dark overlay
     - nebula gradient
     - dragonfly gradient
-dark_background_overlay:
-  default: false
   description:
-    en: "Enable this if you've set a custom background above."
+    en: What colorway should the theme background overlay be?
 rounded_interface_borders:
   default: false
   description:
