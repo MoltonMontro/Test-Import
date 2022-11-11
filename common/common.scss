@@ -2182,39 +2182,6 @@ body:before {
   #background {
     opacity: 0.85;
   }
-
-  // fix IE EDGE backgrounds
-/*
-  @supports (-ms-ime-align: auto) {
-    body:before {
-      z-index: 2;
-    }
-
-    #background {
-      z-index: 1;
-    }
-  }
-
-  @supports (-ms-accelerator: true) {
-    body:before {
-      z-index: 2;
-    }
-
-    #background {
-      z-index: 1;
-    }
-  }
-
-  @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    body:before {
-      z-index: 2;
-    }
-
-    #background {
-      z-index: 1;
-    }
-  }
-*/
 }
 
 @if $rounded_interface_borders == "true" {
