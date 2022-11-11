@@ -2210,7 +2210,7 @@ body:before {
   } @else if $theme_background_color == "dragonfly gradient" {
     background: linear-gradient(to bottom right, #42bf9e, #2cbd1b 25%, #bda41b);
   } @else {
-    @error "Unknown error! Yadda yadda. Test.";
+    @error "Configuration error: $theme_background_color is not set to valid enumerator!";
   }
 }
 
