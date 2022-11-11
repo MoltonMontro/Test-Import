@@ -2162,6 +2162,10 @@ li.solved-status-filter details.solved-status-filter summary {
 body:before {
   @if $theme_background_overlay == "theme automatic" { // determines bg color based on theme color palette's $tertiary value
     background: linear-gradient(to bottom right, $body-gradient-color-second, $body-gradient-color-first);
+  } @else if $theme_background_overlay == "dark overlay" { // flat black color
+    background: black;
+    opacity: 0.7;
+    z-index: 0;
   } @else if $theme_background_overlay == "dragonfly gradient" { // three-color gradient (cyan, lime, gold)
     background: linear-gradient(to bottom right, #42bf9e, #2cbd1b 25%, #bda41b);
   } @else if $theme_background_overlay == "nebula gradient" { // two-color gradient (blue, violet)
@@ -2170,17 +2174,7 @@ body:before {
     @error "$theme_background_color configuration is not set to valid enumerator!";
   }
 }
-
-@if $theme_background_overlay == "dark overlay" { // flat black color
-  body:before {
-      background: black;
-      opacity: 0.7;
-      z-index: 0;
-  }
-  #background {
-    opacity: 0.85;
-  }
-}
+@if $theme_background_overlay == "dark overlay" { #background { opacity: 0.85; } }
 
 @if $rounded_interface_borders == "true" {
   #post_1 .contents,
