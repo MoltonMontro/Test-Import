@@ -7,7 +7,7 @@ theme_background_color:
   type: enum
   choices:
     - theme automatic
-    - dark background overlay
+    - dark overlay
     - nebula gradient
     - dragonfly gradient
 dark_background_overlay:
