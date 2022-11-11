@@ -2163,11 +2163,9 @@ body:before {
   @if $theme_background_overlay == "theme automatic" { // determines bg color based on theme color palette's $tertiary value
     background: linear-gradient(to bottom right, $body-gradient-color-second, $body-gradient-color-first);
   } @else if $theme_background_overlay == "dark overlay" { // flat black color
-    body:before {
-        background: black;
-        opacity: 0.7;
-        z-index: 0;
-    }
+      background: black;
+      opacity: 0.7;
+      z-index: 0;
     #background {
         opacity: 0.85;
     }
