@@ -2207,8 +2207,8 @@ li.solved-status-filter details.solved-status-filter summary {
 body:before {
   @if %theme_background_color == "theme automatic" { // determines bg color based on theme color palette's $tertiary value
     background: linear-gradient(to bottom right, $body-gradient-color-second, $body-gradient-color-first);
-  } @else {
-    @error "Unknown setting!";
+  } @else if %theme_background_color == "dragonfly gradient" {
+    background: linear-gradient(to bottom right, #42bf9e, #2cbd1b 25%, #bda41b);
   }
 }
 
