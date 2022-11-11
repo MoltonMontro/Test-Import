@@ -2175,11 +2175,11 @@ body:before {
 @if $dark_background_overlay == "true" {
   body:before {
       background: black;
-      opacity: 0.75;
+      opacity: 0.7;
       z-index: 0;
   }
   #background {
-      opacity: 1;
+      opacity: 0.85;
   }
 }
 
