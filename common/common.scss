@@ -2199,6 +2199,9 @@ li.solved-status-filter details.solved-status-filter summary {
     border: none !important;
 }
 
+li.bread-crumbs-right-outlet.unanswered-filter-connector { margin-right: 0; } // Margin shouldn't exist when the dropdown isn't present on the page
+li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswered-filter-dropdown { margin-right: 0.5em; }
+
 // Additional configuration settings -----------------------------------------------------------------------------
 
 body:before {
