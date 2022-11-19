@@ -636,8 +636,7 @@ ul.subcat-list,
   margin: 10px 0;
 }
 
-.signup-cta .buttons,
-.topic-area .presence-users {
+.signup-cta .buttons {
   margin-bottom: 1em;
 }
 
@@ -687,7 +686,7 @@ a.mention-group,
 
 // padding small all sides -------------------------
 
-.topic-area .presence-users {
+.presence-users {
   padding: 0.5em;
 }
 
@@ -904,8 +903,7 @@ div.topic-post .topic-avatar .post-avatar { pointer-events: initial; }
 // custom ---------------------------------------------
 
 #topic-title .title-wrapper,
-#topic-footer-buttons,
-.topic-area .presence-users {
+#topic-footer-buttons {
   max-width: 100%;
 }
 
@@ -1311,11 +1309,8 @@ blockquote {
   background: lighten($main-background, 10%);
 }
 
-.topic-area .presence-users {
+.presence-users {
   background: transparent;
-  border-bottom: 1px solid $border-color;
-  width: auto;
-  display: inline-block;
 }
 
 .timeline-container .topic-timeline .timeline-scrollarea {
