@@ -1178,6 +1178,7 @@ a {
   }
 }
 
+/* MOBILE-MOBILE-MOBILE
 @media (max-width: 650px) {
   .topic-avatar {
     margin-top: 1px;
@@ -1197,6 +1198,7 @@ a {
     margin-bottom: 0;
   }
 }
+*/
 
 // Extras -------------------------------------------------------------------------------------
 
@@ -1872,6 +1874,7 @@ html.desktop-view.not-mobile-device {
 
 // mobile only
 
+/* MOBILE-MOBILE-MOBILE
 html.mobile-view.mobile-device {
   .topic-avatar img.avatar {
     margin: 0;
@@ -1939,6 +1942,7 @@ html.mobile-view.mobile-device {
     padding: 0 0.5em;
   }
 }
+*/
 
 .group-info .avatar-flair,
 .groups-table .groups-info .avatar-flair {
@@ -1965,11 +1969,13 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
   background: $header_background;
 }
 
+/* MOBILE-MOBILE-MOBILE
 .mobile-view.mobile-device {
   .topic-post .boxed .contents {
     background: $header_background;
   }
 }
+*/
 
 .topic-avatar {
   width: unset;
