@@ -875,6 +875,7 @@ section.post-menu-area {
 
 // Sticky avatars -----------------------------------------
 
+/*
 div.topic-post .topic-avatar .post-avatar {
     right: 0;
     transition: right 0.3s;
@@ -892,6 +893,7 @@ div.post-stream > div.topic-post.sticky-avatar ~ div.topic-post.sticky-avatar .t
 
 .topic-post.sticky-avatar .topic-avatar { pointer-events: none; }
 div.topic-post .topic-avatar .post-avatar { pointer-events: initial; }
+*/
 
 // height and width ---------------------------------------------------------------------------
 
