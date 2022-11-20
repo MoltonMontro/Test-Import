@@ -548,6 +548,12 @@ div.autocomplete.ac-user img.avatar{
   margin: 0.5em;
 }
 
+// margin small on side only ------------------------
+
+.post-infos img.avatar {
+    margin: 0 0.25em;
+}
+
 // margin large all sides ---------------------------
 
 .user-main .about .details img.avatar,
