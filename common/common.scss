@@ -1835,7 +1835,7 @@ tbody {
 
 // desktop only
 
-html.desktop-view.not-mobile-device {
+html/*.desktop-view.not-mobile-device*/ {
   .topic-post .row,
   .reply .topic-body {
     // display: flex;
@@ -2023,13 +2023,14 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 //// ---------------------------------------
 .timeline-container {
   margin-left: 875px;
-
+/* MOBILE-MOBILE-MOBILE
   @media all and (min-width: 1140px) {
     margin-left: 875px;
   }
   @media all and (min-width: 1250px) {
     margin-left: 875px;
   }
+*/
 }
 
 .topic-map .buttons .btn {
