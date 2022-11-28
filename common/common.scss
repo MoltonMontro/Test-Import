@@ -2206,6 +2206,12 @@ li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswere
 
 // BANNER theme component
 
+/* theme-specific styling of Versatile Banners plugin */
+#main>div #main-outlet { // Unsets these values, as they cause the main content wrap to shrink.
+    max-width: unset;
+    width: unset;
+}
+
 /* Container CSS */
 
 .banner-box .container {
