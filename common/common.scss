@@ -2204,6 +2204,28 @@ li.solved-status-filter details.solved-status-filter summary {
 li.bread-crumbs-right-outlet.unanswered-filter-connector { margin-right: 0; } // Margin shouldn't exist when the dropdown isn't present on the page
 li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswered-filter-dropdown { margin-right: 0.5em; }
 
+// BANNER theme component
+
+.banner-box { // Most/all of this should be moved into the .container instead.
+    margin: 0 auto;
+    color: var(--primary-very-high);
+    background-color: #131418;
+    border-radius: 0;
+}
+.banner-box .container {
+    border: 1px solid #555;
+    border-radius: 0;
+    margin-top: 20px;
+    margin-bottom: -0.5em;
+}
+.banner-box h1, .banner-box h2, .banner-box h3 {
+    color: var(--primary);
+}
+.banner-box .section-header .colored-line {
+    width: 20%;
+    background: rgba(239,239,239,0.1);
+}
+
 // Additional configuration settings -----------------------------------------------------------------------------
 
 body:before {
