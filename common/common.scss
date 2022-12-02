@@ -2242,14 +2242,19 @@ li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswere
 
 /* Expand/Collapse CSS */
 
-.banner-box .button-container .close .d-button-label, .banner-box .button-container .toggle .d-button-label,
-.banner-box .button-container .close svg, .banner-box .button-container .toggle svg {
+.banner-box {
+  .button-container .close .d-button-label,
+  .button-container .toggle .d-button-label,
+  .button-container .close svg,
+  .button-container .toggle svg {
     color: #DDD;
-}
-
-.banner-box .button-container .close:hover .d-button-label, .banner-box .button-container .toggle:hover .d-button-label,
-.banner-box .button-container .close:hover svg, .banner-box .button-container .toggle:hover svg {
+  }
+  .button-container .close:hover .d-button-label,
+  .button-container .toggle:hover .d-button-label,
+  .button-container .close:hover svg,
+  .button-container .toggle:hover svg {
     color: #AAA;
+  }
 }
 
 // Additional configuration settings -----------------------------------------------------------------------------
