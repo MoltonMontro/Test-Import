@@ -2215,13 +2215,17 @@ li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswere
 
 .banner-box {
   background-color: #131418;
-  border: 3px solid #313131;
-  border-radius: 8px;
+  border: 1px solid #555;
+  border-radius: 0;
   color: var(--primary-very-high);
+}
+
+.banner-box .container {
   margin-top: 20px;
   margin-bottom: -0.5em;
   margin: 0 auto;
   padding: 5px;
+  
 }
 
 /* Content CSS */
