@@ -2242,20 +2242,21 @@ li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswere
 
 /* Expand/collapse buttons */
 
-.banner-box .button-container {
+.banner-box .container .button-container {
   margin-right: 1px;
+  
   .btn {
     padding: 1px;
     .d-button-label,
     svg {
-      color: #ddd;
+        color: #ccc;
     }
     &:hover .d-button-label,
     &:hover svg {
-     color: #aaa;
+    color: #eee;
     }
   }
-  &:hover .d-icon {
+  .btn:hover .d-icon {
     background-color: var(--primary-low);
   }
   .d-icon {
