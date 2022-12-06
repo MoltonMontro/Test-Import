@@ -2240,20 +2240,27 @@ li.bread-crumbs-right-outlet.unanswered-filter-connector details.topic-unanswere
     padding: 0 0 5px 0;
 }
 
-/* Expand/Collapse CSS */
+/* Expand/collapse buttons */
 
-.banner-box {
-  .button-container .close .d-button-label,
-  .button-container .toggle .d-button-label,
-  .button-container .close svg,
-  .button-container .toggle svg {
-    color: #DDD;
+.banner-box .button-container {
+  margin-right: 1px;
+  .btn {
+    padding: 1px;
+    .d-button-label,
+    svg {
+      color: #ddd;
+    }
+    &:hover .d-button-label,
+    &:hover svg {
+     color: #aaa;
+    }
   }
-  .button-container .close:hover .d-button-label,
-  .button-container .toggle:hover .d-button-label,
-  .button-container .close:hover svg,
-  .button-container .toggle:hover svg {
-    color: #AAA;
+  &:hover .d-icon {
+    background-color: var(--primary-low);
+  }
+  .d-icon {
+    margin-right: 1px;
+    padding: 4px;
   }
 }
 
