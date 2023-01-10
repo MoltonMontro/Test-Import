@@ -844,6 +844,15 @@ a.expand-hidden {
   padding: 10px;
 }
 
+#list-area .show-more .alert {
+	padding: 0.825em 2.5em 0.825em 1em; // makes the "See # new or updated topic" alert cover the categories/latest headings
+}
+#list-area .show-more.has-topics .alert { // adjusts padding if the alert appears in topic lists
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+}
+
+
 // Display and positioning --------------------------------------------------------------------
 
 #topic-footer-buttons,
