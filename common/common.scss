@@ -2404,7 +2404,8 @@ body:before {
 }
 
 $avatar_shape_radius: ("square": 0, "rounded": 15%, "circle": 50%);
-img.avatar {
+img.avatar,
+.card-avatar-placeholder {
     border-radius: map-get($avatar_shape_radius, $avatar_shape);
 }
 
