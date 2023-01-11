@@ -1331,6 +1331,12 @@ blockquote {
   border-color: rgba(invert($header_background), 0.18);
 }
 
+#list-area .show-more .alert { // "See # new or updated topics" notice
+  background-color: var(--header_background); // Solid bg-color to hide underlying elements
+  border-bottom: 1px solid var(--primary-low);
+  box-shadow: 0 2px 4px -1px rgba(0,0,0,0.25);
+}
+
 // TESTS --------------------------------------------------------------------------------------
 
 .container.show-badge {
