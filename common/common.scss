@@ -2203,6 +2203,13 @@ $q-background: rgba(contrast($text-base), 0.5) !default;
 // Plugin and Theme Component support -----------------------------------------------------------------------------
 
 // Discourse Solved (plugin) https://github.com/discourse/discourse-solved
+$solved-color: #00d84f;
+
+.post-controls .extra-buttons .accepted .d-icon, .post-controls .extra-buttons .accepted .d-button-label,
+.fa.accepted {
+	color: $solved-color;
+}
+
 li.solved-status-filter details.solved-status-filter summary {
     background: none !important;
     border: none !important;
