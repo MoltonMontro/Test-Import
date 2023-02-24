@@ -1087,7 +1087,7 @@ a {
     color: invert-contrast($text-base) $i;
   }
   &.hashtag-cooked {
-    color: adjust-hue($link-color, 10deg);
+    color: adjust-hue($link-color, -10deg);
   }
 }
 
