@@ -671,7 +671,6 @@ ul.subcat-list,
 // padding zero -------------------------------------
 
 .topic-users > .inline,
-a.hashtag-cooked,
 .cooked .lightbox-wrapper,
 .topic-post article.boxed,
 .topic-avatar,
@@ -853,6 +852,9 @@ a.expand-hidden {
 	padding-bottom: 1.1em;
 }
 
+a.hashtag-cooked { // inline mentions
+	padding: 0 0.3em 0em;
+}
 
 // Display and positioning --------------------------------------------------------------------
 
