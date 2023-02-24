@@ -353,8 +353,7 @@ button.ok:hover {
 .select-kit.combo-box.tag-drop .tag-drop-header,
 .select-kit.combo-box.category-drop .category-drop-header,
 li.toggle-maximize a,
-a.mention,
-a.mention-group,
+a.hashtag-cooked,
 .user-badge,
 #user-card.show-badges .more-user-badges,
 .list-controls .category-breadcrumb li.bullet > .dropdown-header,
@@ -669,8 +668,7 @@ ul.subcat-list,
 // padding zero -------------------------------------
 
 .topic-users > .inline,
-a.mention,
-a.mention-group,
+a.hashtag-cooked,
 .cooked .lightbox-wrapper,
 .topic-post article.boxed,
 .topic-avatar,
@@ -1083,11 +1081,8 @@ a {
   &:hover {
     color: invert-contrast($text-base) $i;
   }
-  &.mention {
+  &.hashtag-cooked {
     color: adjust-hue($link-color, 10deg);
-  }
-  &.mention-group {
-    color: adjust-hue($link-color, -10deg);
   }
 }
 
