@@ -516,7 +516,7 @@ img.avatar,
 // outline ---------------------------
 
 .group-card, .user-card { // remove outline color from cards, which always appear on every page
-	outline-color: rgba(0,0,0,0);
+	outline-color: rgba(0,0,0,0) $i;
 }
 
 .user-card .card-content, .group-card .card-content { // re-add outline to cards, but only .card-content
