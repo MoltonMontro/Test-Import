@@ -513,6 +513,17 @@ img.avatar,
   border-width: 1px;
 }
 
+// outline ---------------------------
+
+.group-card, .user-card { // remove outline color from cards, which always appear on every page
+	outline-color: rgba(0,0,0,0);
+}
+
+.user-card .card-content, .group-card .card-content { // re-add outline to cards, but only .card-content
+	outline-width: 2px;
+	outline-style: solid;
+}
+
 // Margins ------------------------------------------------------------------------------------
 
 // 0 auto ------------------------------------------
