@@ -337,6 +337,10 @@ button.ok:hover {
     background-color: #115d7a;
 }
 
+a.hashtag-cooked { // inline mentions
+	background: rgba(50,50,50,0.5); // maybe different bg color
+}
+
 // background none ------------------------------
 
 .nav-pills > li:not(.active) > a:hover,
@@ -353,8 +357,6 @@ button.ok:hover {
 .select-kit.combo-box.tag-drop .tag-drop-header,
 .select-kit.combo-box.category-drop .category-drop-header,
 li.toggle-maximize a,
-a.mention,
-a.mention-group,
 .user-badge,
 #user-card.show-badges .more-user-badges,
 .list-controls .category-breadcrumb li.bullet > .dropdown-header,
@@ -509,6 +511,17 @@ img.avatar,
 .category-boxes .category-box-inner,
 .category-boxes-with-topics .category-box-inner {
   border-width: 1px;
+}
+
+// outline ---------------------------
+
+.group-card, .user-card { // remove outline color from cards, which always appear on every page
+	outline-color: rgba(0,0,0,0) $i;
+}
+
+.user-card .card-content, .group-card .card-content { // re-add outline to cards, but only .card-content
+	outline-width: 2px;
+	outline-style: solid;
 }
 
 // Margins ------------------------------------------------------------------------------------
@@ -669,8 +682,6 @@ ul.subcat-list,
 // padding zero -------------------------------------
 
 .topic-users > .inline,
-a.mention,
-a.mention-group,
 .cooked .lightbox-wrapper,
 .topic-post article.boxed,
 .topic-avatar,
@@ -852,6 +863,9 @@ a.expand-hidden {
 	padding-bottom: 1.1em;
 }
 
+a.hashtag-cooked { // inline mentions
+	padding: 0 0.3em 0em;
+}
 
 // Display and positioning --------------------------------------------------------------------
 
@@ -1083,12 +1097,6 @@ a {
   &:hover {
     color: invert-contrast($text-base) $i;
   }
-  &.mention {
-    color: adjust-hue($link-color, 10deg);
-  }
-  &.mention-group {
-    color: adjust-hue($link-color, -10deg);
-  }
 }
 
 .user-main .staff-counters a {
@@ -1249,10 +1257,9 @@ a {
   right: 3px;
 }
 
-/* Width of "bar" category style -- default is unsymmetrical and ugly. */
-.badge-wrapper.bar span.badge-category-bg { width: 3px; }
-.badge-wrapper.bar span.badge-category-parent-bg,
-.badge-wrapper.bar span.badge-category-parent-bg + span.badge-category-bg { width: 3px; }
+  .badge-wrapper.bar span.badge-category-bg,
+  .badge-wrapper.bar span.badge-category-parent-bg,
+  .badge-wrapper.bar span.badge-category-parent-bg + span.badge-category-bg { width: 3px; } // default width is unsymmetrical and ugly
 
 header.d-header.clearfix, .published-page-header {
   border-bottom: 1px solid #555555;
